@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my virtual home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip to Content Link -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <!-- Banner -->
+    <header class="banner" role="banner" aria-label="Sports theme banner">
+        <img src="img/banner.jpg.png" alt="Vibrant sports collage representing various sports events" class="banner-img">
+    </header>
+
+    <!-- Navigation -->
+    <nav aria-label="Main navigation" class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="#">Football</a></li>
+            <li><a href="#">Basketball</a></li>
+            <li><a href="#">Tennis</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Ticket Prices Table -->
+        <section id="prices">
+            <h1 id="prices__h1">Ticket Pricing</h1>
+            <h2 id="prices__h2">Available Ticket Options</h2>
+            <div id="prices__table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Standard</th>
+                        <th>VIP</th>
+                        <th>Student</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Football</td>
+                        <td>$50</td>
+                        <td>$150</td>
+                        <td>$40</td>
+                    </tr>
+                    <tr>
+                        <td>Basketball</td>
+                        <td>$40</td>
+                        <td>$120</td>
+                        <td>$30</td>
+                    </tr>
+                    <tr>
+                        <td>Tennis</td>
+                        <td>$60</td>
+                        <td>$180</td>
+                        <td>$50</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </section>
+
+        <!-- Ticket Booking Form -->
+        <section id="booking">
+            <h1>Book Your Tickets</h1>
+            <h2>Fill out the form to secure your seat</h2>
+
+            <form action="#" aria-label="Ticket booking form" novalidate>
+
+                <div class="form__section1">
+                <label for="name">Name</label>
+                <input type="text" id="name" aria-required="true" aria-describedby="name-error" required>
+                <span class="error-msg" aria-live="assertive" id="nameError" aria-hidden="true">Please enter your name</span>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" aria-required="true" aria-describedby="email-error" required>
+                <span class="error-msg" aria-live="assertive" id="emailError" aria-hidden="true">Please enter your email</span>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" aria-required="true" aria-describedby="phone-error" required>
+                <span class="error-msg" aria-live="assertive" id="phoneError" aria-hidden="true">Please enter your phone number</span>
+                </div>
+
+                <div class="form__section2">
+                <label for="event">Event</label>
+                <input type="text" id="event" aria-required="true" aria-describedby="event-error" required>
+                <span class="error-msg" aria-live="assertive" id="eventError" aria-hidden="true">Please enter the event name</span>
+
+                <label for="ticketType">Ticket</label>
+                <input type="text" id="ticketType" aria-required="true" aria-describedby="ticket-error" required>
+                <span class="error-msg" aria-live="assertive" id="ticketTypeError" aria-hidden="true">Please select a ticket type</span>
+
+                <label for="people">People</label>
+                <input type="number" id="people" aria-required="true" aria-describedby="people-error" required>
+                <span class="error-msg" aria-live="assertive" id="peopleError" aria-hidden="true">Please specify the quantity</span>
+                </div>
+
+                <button type="submit">Submit</button>
+
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>

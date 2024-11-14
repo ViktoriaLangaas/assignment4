@@ -135,9 +135,9 @@ th{
 /* Color the first column */
 td:nth-child(1),
 th:nth-child(1),
-td:nth-child(3),
+td:nth-child(3), 
 th:nth-child(3) {
-  background-color: rgb(150, 158, 161);
+  background-color: rgb(119, 124, 124);
 }
 
 /* Color the second column */
@@ -145,7 +145,7 @@ td:nth-child(2),
 th:nth-child(2),
 td:nth-child(4),
 th:nth-child(4) {
-  background-color: rgb(105, 108, 110);
+  background-color: rgb(81, 82, 82);
 }
 
 /* To center the table*/
@@ -187,7 +187,7 @@ input {
 }
 
 button{
-    background-color: red;
+    background-color: rgb(154, 26, 26);
     width: 100px;
     color: white;
     margin-top: 10px;

@@ -196,8 +196,8 @@ button{
 }
 
 .error-msg {
-    color: red;
-    font-size: 0.7em;
+    color: rgb(153, 22, 22);
+    font-size: 0.9em;
     display: none;
 }
 

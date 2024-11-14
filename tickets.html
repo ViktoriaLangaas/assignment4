@@ -76,30 +76,30 @@
 
                 <div class="form__section1">
                 <label for="name">Name</label>
-                <input type="text" id="name" aria-required="true" aria-describedby="name-error" required>
-                <span class="error-msg" aria-live="assertive" id="name-error" aria-hidden="true">Please enter your name</span>
+                <input type="text" placeholder="your name" id="name" aria-required="true" aria-describedby="name-error" required>
+                <span class="error-msg" aria-live="assertive" id="name-error" aria-hidden="true">Enter your name</span>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" aria-required="true" aria-describedby="email-error" required>
-                <span class="error-msg" aria-live="assertive" id="email-error" aria-hidden="true">Please enter your email</span>
+                <input type="email" placeholder="email" id="email" aria-required="true" aria-describedby="email-error" required>
+                <span class="error-msg" aria-live="assertive" id="email-error" aria-hidden="true">Enter your email</span>
 
                 <label for="phone">Phone</label>
-                <input type="tel" id="phone" aria-required="true" aria-describedby="phone-error" required>
-                <span class="error-msg" aria-live="assertive" id="phone-error" aria-hidden="true">Please enter your phone number</span>
+                <input type="tel" placeholder="phone number" id="phone" aria-required="true" aria-describedby="phone-error" required>
+                <span class="error-msg" aria-live="assertive" id="phone-error" aria-hidden="true">Enter your phone number</span>
                 </div>
 
                 <div class="form__section2">
                 <label for="event">Event</label>
-                <input type="text" id="event" aria-required="true" aria-describedby="event-error" required>
-                <span class="error-msg" aria-live="assertive" id="event-error" aria-hidden="true">Please enter the event name</span>
+                <input type="text" placeholder="name of event"  id="event" aria-required="true" aria-describedby="event-error" required>
+                <span class="error-msg" aria-live="assertive" id="event-error" aria-hidden="true">Enter event name</span>
 
                 <label for="ticketType">Ticket</label>
-                <input type="text" id="ticketType" aria-required="true" aria-describedby="ticket-error" required>
-                <span class="error-msg" aria-live="assertive" id="ticket-error" aria-hidden="true">Please select a ticket type</span>
+                <input type="text" placeholder="ticket type"  id="ticketType" aria-required="true" aria-describedby="ticket-error" required>
+                <span class="error-msg" aria-live="assertive" id="ticket-error" aria-hidden="true">Select ticket type</span>
 
                 <label for="people">People</label> 
-                <input type="number" id="people" aria-required="true" aria-describedby="people-error" required>
-                <span class="error-msg" aria-live="assertive" id="people-error" aria-hidden="true">Please specify the quantity</span>
+                <input type="number" min="1" placeholder="number of people" id="people" aria-required="true" aria-describedby="people-error" required>
+                <span class="error-msg" aria-live="assertive" id="people-error" aria-hidden="true">Specify how many tickets</span>
                 </div>
 
                 <button type="submit">Submit</button>
